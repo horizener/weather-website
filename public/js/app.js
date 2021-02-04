@@ -35,7 +35,7 @@ weatherForm.addEventListener('click', (e)=> {
         } else {
             // console.log(data.location)
             console.log(data.data)
-            messageOne.textContent = `${data.data.temperature}`
+            messageOne.textContent = ` the current temperature is ${data.data.temperature} and there is a chance of ${data.data.precip}% rain and the weather will be ${data.data.weather_descriptions}`
 
             messageTwo.textContent = `${data.location}`
 
